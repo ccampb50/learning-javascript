@@ -1,0 +1,29 @@
+Primitive Data Types: 
+Stored directly in the memory location that the variable accesses 
+Stored on a stack 
+
+Reference Data Types: 
+Accessed by reference
+Objects are stored in a heap
+A pointed to a location in memory
+
+Primitive Data Types: 
+String
+Number
+Boolean 
+Null
+Undefined 
+Symbols (ES6) 
+
+Reference Types: 
+Arrays
+Object Literals
+Functions 
+Dates
+Anything else ...
+
+Same variable can be hold multiple types (dynamic typing)
+Most other languages are statically typed (Java, C#, C++) 
+
+
+ 
