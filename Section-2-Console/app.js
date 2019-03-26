@@ -39,5 +39,14 @@ const sym = Symbol(); //Symbol
 console.log(typeof sym); 
 
 //Refernce Types 
-const hobbies = ['movies','music','runescape'];
+const hobbies = ['movies','music','runescape']; //Array
 console.log(typeof hobbies);
+
+const address = { //Object Literal 
+    city: 'Boston',
+    state: 'Ma'
+}
+console.log(typeof address);
+const today = new Date();
+console.log(today);
+console.log(typeof today);
