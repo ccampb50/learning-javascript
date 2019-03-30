@@ -43,10 +43,10 @@ console.log(numbers);
 numbers.splice(1,3); //splices array;
 console.log(numbers);
 
-val = numbers.concat(number2);
+val = numbers.concat(numbers2);
 console.log(val); //concat arrays
 
-val = fruit.sort();
+val = fruits.sort();
 console.log(val);
 
 val = numbers.sort();
@@ -56,6 +56,19 @@ val = numbers.sort(function(x,y){
     return x-y;
 });
 
+console.log(val);
+
+val = numbers.sort(function(x,y){
+    return y-x;
+});
+
+console.log(val);
+
+function under50(num){
+    return num < 50;
+}
+
+val = numbers.find(under50); //returns first val under 50 in sorted array
 
 
-
+console.log(val);
