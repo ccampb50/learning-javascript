@@ -10,11 +10,52 @@ console.log(numbers2);
 console.log(fruits);
 console.log(mixed);
 
-val = numbers.length;
+val = numbers.length; //array length
 console.log(val);
 
-val = Array.isArray(mixed);
+val = Array.isArray(mixed); //array check
 console.log(val);
 
-val = numbers3[3];
+val = numbers[3]; //getting a single value from an array 
 console.log(val);
+
+val = numbers[0];
+console.log(val);
+
+numbers[2] = 200; //insert value into array 
+console.log(numbers);
+
+val = numbers.indexOf(5); //find index of a value in the array
+console.log(val);
+
+numbers.push(250); //add to the end
+console.log(numbers);
+
+numbers.unshift(13); //add to the beginning.
+console.log(numbers);
+
+numbers.pop(); // take from end
+console.log(numbers);
+
+numbers.shift(); // take from front
+console.log(numbers);
+
+numbers.splice(1,3); //splices array;
+console.log(numbers);
+
+val = numbers.concat(number2);
+console.log(val); //concat arrays
+
+val = fruit.sort();
+console.log(val);
+
+val = numbers.sort();
+console.log(val);
+
+val = numbers.sort(function(x,y){
+    return x-y;
+});
+
+
+
+
